@@ -1,3 +1,9 @@
 *.dol
 *.elf
 ./build
+/build/modplay.elf.map
+/build/technique.mod.o
+/build/technique_mod.h
+/build/template.d
+/build/template.o
+/.idea/vcs.xml
