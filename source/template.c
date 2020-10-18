@@ -59,7 +59,8 @@ int main(int argc, char **argv) {
 	printf("\x1b[2;0H");
 
 
-	printf("Italiano's MOD player for the Wii");
+	printf("Italiano's MOD player for the Wii"\n);
+	printf("Press home to quit"\n);
 
 	MODPlay_Init(&play);
 	MODPlay_SetMOD(&play,technique_mod);
